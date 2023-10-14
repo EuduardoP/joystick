@@ -26,17 +26,6 @@ body,html {
   --background-end: #FF79C6;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground: #F8F8F2;
-    --background-start: #282A36;
-    --background-end: #44475A;
-  }
-}
-
-
-
-
 body {
   color: var(--dracula-foreground);
   background: linear-gradient(

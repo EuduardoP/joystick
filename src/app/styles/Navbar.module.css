@@ -32,7 +32,7 @@
 .navbar button {
     margin-right: 1%;
     background-color: var(--dracula-green);
-    color: var(--dracula-foreground);
+    color: var(--dracula-comment);
     padding: 0.5rem;
     border-radius: 1rem;
 }
