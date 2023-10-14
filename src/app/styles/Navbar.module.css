@@ -2,7 +2,7 @@
     display: flex;
     background-color: var(--dracula-foreground);
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 6px 6px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     color: var(--dracula-comment);

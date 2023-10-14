@@ -1,6 +1,7 @@
 'use client';
 import Navbar from './components/Navbar'
 import Modal from './components/Modal'
+import Joystick from './components/Joystick';
 import { useState, useEffect } from 'react'
 
 
@@ -58,7 +59,7 @@ export default function Home() {
 
       <Navbar setOpenModal={setOpenModal} />
       <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} />
-      <canvas className="canvas"></canvas>
+      <Joystick />
     </div>
   );
 }
