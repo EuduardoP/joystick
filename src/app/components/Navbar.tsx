@@ -9,9 +9,9 @@ export default function Navbar({setOpenModal}: { setOpenModal: (isOpen: boolean)
             <div>
             <Image 
                 src="/icon-page.svg"
-                width={80}
-                height={80}
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                width={45}
+                height={45}
+                sizes="(max-width: 100px) 10vh, (max-width: 300px) 30vh, 40vh"
                 alt="Logo do site" />
             <li className={styles.title}>
                 Joystick do Braço Robótico

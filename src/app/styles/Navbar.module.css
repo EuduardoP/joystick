@@ -3,12 +3,13 @@
     background-color: var(--dracula-foreground);
     border-radius: 1rem;
     margin: 0.5rem;
-    padding: 6px 6px;
+    padding: 1% 1%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     color: var(--dracula-comment);
     align-items: center;
     justify-content: space-between;
 }
+
 
 .navbar a {
     background-color: var(--dracula-foreground);
@@ -29,10 +30,10 @@
 }
 
 .navbar button {
-    margin-right: 1rem;
+    margin-right: 1%;
     background-color: var(--dracula-green);
     color: var(--dracula-foreground);
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 1rem;
 }
 
