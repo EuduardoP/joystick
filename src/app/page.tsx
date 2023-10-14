@@ -1,7 +1,7 @@
 'use client';
 import Navbar from './components/Navbar'
 import Modal from './components/Modal'
-import Joystick from './components/Joystick';
+import Display from './components/Display';
 import { useState, useEffect } from 'react'
 
 
@@ -38,28 +38,14 @@ export default function Home() {
   return (
     <div>
       {!isLandscape && (
-        <div
-          style={{
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            background: 'black',
-            color: 'white',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            zIndex: 1002,
-          }}
-        >
+        <div className='fixed top-0 left-0 right-0 bottom-0 bg-black text-d-wh flex items-center justify-center z-50'>
           <p>Vire o celular para acessar o Joysitck.</p>
         </div>
       )}
 
       <Navbar setOpenModal={setOpenModal} />
       <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} />
-      <Joystick />
+      <Display />
     </div>
   );
 }
