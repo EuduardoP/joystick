@@ -3,23 +3,34 @@
 @tailwind utilities;
 
 * {
-  height: 100%;
   margin: 0;
   padding: 0;
+}
+
+body,html {
+  height: 100%;
   overflow: hidden;
 }
 
 :root {
-  --foreground-rgb: 248, 248, 242;
-  --background-start-rgb: 255, 121, 198;
-  --background-end-rgb: 255, 184, 108;
+  --dracula-foreground: #F8F8F2;
+  --dracula-cyan: #8BE9FD;
+  --dracula-green: #50FA7B; 
+  --dracula-pink: #FF79C6;
+  --dracula-orange: #FFB86C;
+  --dracula-purple: #FF79C6;
+  --dracula-red: #FF5555;
+  --dracula-yellow: #F1FA8C;
+  --dracula-comment: #6272A4;
+  --background-start: #FFB86C;
+  --background-end: #FF79C6;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 40, 42, 54;
-    --background-start-rgb: 40, 42, 54;
-    --background-end-rgb: 68, 71, 90;
+    --foreground: #F8F8F2;
+    --background-start: #282A36;
+    --background-end: #44475A;
   }
 }
 
@@ -27,11 +38,11 @@
 
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: var(--dracula-foreground);
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      var(--background-start)
     )
-    rgb(var(--background-start-rgb));
+    var(--background-end);
 }

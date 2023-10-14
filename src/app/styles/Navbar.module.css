@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    background-color: var(--dracula-foreground);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 6px 6px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    color: var(--dracula-comment);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    background-color: var(--dracula-foreground);
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+.title {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar div {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.navbar button {
+    margin-right: 1rem;
+    background-color: var(--dracula-green);
+    color: var(--dracula-foreground);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
