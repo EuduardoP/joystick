@@ -36,7 +36,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className='flex h-screen flex-col'>
       {!isLandscape && (
         <div className='fixed top-0 left-0 right-0 bottom-0 bg-black text-d-wh flex items-center justify-center z-50'>
           <p>Vire o celular para acessar o Joysitck.</p>
